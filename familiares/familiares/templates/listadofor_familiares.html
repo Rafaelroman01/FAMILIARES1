@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de listado con For para los familiares</title>
+</head>
+<body>
+    
+     {% if familiares == "cercanos" %}
+        <h1 style="color:blue">listado familiares{{familiares}}</h1>
+     {% else %}
+        <h1>listado familiares{{familiares}}</h1>
+     
+     {% endif %}
+        
+     <ul>{%for nombre_apellido in listado_familiares%}
+        <li>{{nombre_apellido}}</li>
+
+
+      {% endfor %}
+      </ul>
+
+
+</body>
+</html>

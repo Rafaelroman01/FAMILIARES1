@@ -54,7 +54,7 @@ ROOT_URLCONF = 'familiares.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r"\Users\Familia\Desktop\Carpeta VSC\Familiares1\familiares\familiares\templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
