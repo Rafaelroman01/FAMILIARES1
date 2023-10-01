@@ -3,18 +3,18 @@ from appfamilia.models import *
 from django.shortcuts import render
 
 def inic(request):
-    return render(request, "Appcoder/index.html")
+    return render(request, "Appcoder/base.html")
 
 def familias(request):
-    return HttpResponse("Estas en vista familias")
+    return render(request, "Appcoder/familia.html")
 
 def hijos(request):
-    return HttpResponse("Estas en vista hijos")
+    return render(request, "Appcoder/hijo.html")
 
-def padres(request):
-    return HttpResponse("Estas en vista padres")
+def representantes(request):
+    return render(request, "Appcoder/representante.html")
 
 def entregables(request):
-    return HttpResponse("Estas en vista entregables")
+    return render(request, "Appcoder/entregable.html")
     
 

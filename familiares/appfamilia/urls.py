@@ -5,6 +5,6 @@ urlpatterns = [
     path('inic/', inic),
     path('familias/', familias),
     path('hijos/', hijos),
-    path('padres/', padres),
+    path('representante/', representantes),
     path('entregables/', entregables)
 ]

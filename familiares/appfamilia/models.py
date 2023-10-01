@@ -11,7 +11,7 @@ class Hijo(models.Model):
     email = models.EmailField()
 
 
-class Padre(models.Model):
+class Representante(models.Model):
     nombre = models.CharField(max_length=50)
     apellido = models.CharField(max_length=50)
     email = models.EmailField()
